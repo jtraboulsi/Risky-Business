@@ -1,2 +1,4 @@
 # Risky-Business
 An intro to classification models and data sampling
+
+The goal of this excersise is to built various ML models in order to find the most appropiate one to make binary class predictions. Namely, "high risk" vs "low risk" credit classifications. In the process, I make use of standard data pre-processing techniques including integer encoding variables, standardization and splitting of datasets into training and test sets. Importantly, the original highly imbalanced dataset is resampled various times using oversampling, undersampling and mixed sampling tecniques and it's fitted into logistic regression models. We compare the performance of each logistic regression model acrros a set of metrics such as accuracy scores, confusion matrix statistics and results from their imbalanced classification report to find the highest quality model. Lastly, I build and compare a couple of ensemble models on the second module.
